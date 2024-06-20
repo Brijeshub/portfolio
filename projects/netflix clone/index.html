@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="netflix.css">
+</head>
+<body>
+  <!-- ..............home page.......................................................................................... -->
+    <div class="header">
+      <div class="nav">
+        <div class="logo">
+        <img src="logo/logo.png" >
+       </div>
+        <div id="lang">  
+          <select name="select" class="lang-btn">
+            <option>English</option>
+            <option>Hindi</option>
+           
+          </select>
+         <!-- <button class="lang-btn">English <img src="logo/down-solid.png"id="arrow"></button> -->
+         <button id="sign_in">Sign In</button>
+      </div>
+    </div>
+     <div class="content">
+      <div id="heading">
+      <h1>Unlimited movies, TV shows and more</h1>
+      <h2>Watch anywhere. Cancel anytime.</h2>
+      <p>Ready to watch? Enter your email or mobile number to create or restart your membership.</p>
+       </div>
+ <!-- .............button..................................................................       -->
+       <form class="signup">
+        <div id="signBox1">
+        <input type="email"placeholder="Email or mobile number"required>
+      </div>
+      <div id="signBox2">
+        <button type="submit">Get Started</button>
+      </div>
+      </form>
+     </div>
+    </div>
+<!-- ......................................................................................................................... -->
+
+
+ <!-- first section............................................................................................................. -->
+   <div class="features">
+     <div class="row">
+      <div class="text-col" id="text-col1">
+        <h2>Enjoy on your TV </h2>
+        <p> Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more. </p>
+        </div>
+      <div class="img-col">
+        <img src="logo/tv.png"> 
+        <video  autoplay loop muted id="video1">
+        <source src="video/video1.m4v"type="video/mp4">
+        </video>
+      </div>
+     </div>
+   </div>
+<!-- .............................................................................................................................. -->
+
+
+<!-- second feature............................................................................................................. -->
+  <div class="features">
+    <div class="row">
+      <div class="text-col">
+          <h2>Download your shows to watch offline</h2>
+          <p> Save your favourites easily and always have something to watch.</p>
+          </div>
+          <div class="img-col">
+        <img src="photo/mobile.jpg">  
+        <div id="mobile-div">
+          <div id="mobile-box">
+          <img src="photo/mobile-boxshot.png">
+          </div>
+          <div id="heding-tex"><h6>Stranger Things</h6><p>Downloading....</p></div>
+          <div id="loader">
+            <img src="photo/download-icon.gif">
+          </div>
+        </div> 
+      </div>
+      </div>
+  </div>
+<!-- ............................................................................................................................ -->
+
+
+<!-- third section.............................................................................................. -->
+  <div class="features">
+    <div class="row">
+     <div class="text-col">
+       <h2>Watch everywhere</h2>
+       <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+       </div>
+       <div class="img-col" id="video-col">
+       <img src="photo/3device-pile-in.png">  
+        <video  autoplay loop muted id="video2">
+        <source src="video/video-devices-in.m4v"type="video/mp4">
+        </video>
+      </div>
+      </div>
+    </div>
+<!-- .............................................................................................................................................. -->
+
+
+<!-- .....forth.section............................................................................................................ -->
+<div class="features">
+  <div class="row">
+    <div class="text-col">
+        <h2>Create profiles for kids</h2>
+        <p> Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+        </div>
+
+        <div class="img-col">
+      <img src="photo/forth_photo.png">  
+    </div>
+</div>
+</div>
+<!-- .................................................................................................................................. -->
+
+
+<!-- accordian FAQ.............................................................................................................. -->
+<div class="faq">
+    <h2>Frequently Asked Questions</h2>
+  <ul class="accordion">
+     <li>
+      <input type="radio"name="accordion"id="first">
+      <label for="first">What is NEtflix?</label>
+      <div class="contentA">
+        <p>Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Distinctio voluptates officia consequuntur,
+          vel adipisci tenetur a sit hic dignissimos repellendus aut,
+          rem tempore laborum in!</p>
+      </div>
+     </li>
+     <li>
+      <input type="radio"name="accordion"id="second">
+      <label for="second">How is use?</label>
+      <div class="contentA">
+        <p>Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Distinctio voluptates officia consequuntur,
+          vel adipisci tenetur a sit hic dignissimos repellendus aut,
+          rem tempore laborum in!</p>
+
+      </div>
+     </li>
+     
+     <li>
+      <input type="radio"name="accordion"id="third">
+      <label for="third">Where i can watch?</label>
+      <div class="contentA">
+        <p>Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Distinctio voluptates officia consequuntur,
+          vel adipisci tenetur a sit hic dignissimos repellendus aut,
+          rem tempore laborum in!</p>
+      </div>
+     </li>
+
+     <li>
+      <input type="radio"name="accordion"id="four">
+      <label for="four">How do i cancle?</label>
+      <div class="contentA">
+        <p>Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Distinctio voluptates officia consequuntur,
+          vel adipisci tenetur a sit hic dignissimos repellendus aut,
+          rem tempore laborum in!</p>
+
+      </div>
+     </li>
+  </ul>
+  <small>Ready to watch? Enter your email to create or restart your membership.
+  </small>
+  <form class="signup">
+    <div id="signBox1">
+    <input type="email"placeholder="Email address"required>
+    </div>
+    <div id="signBox2">
+    <button type="submit">Get Started</button>
+    </div> 
+  </form>
+  </div>
+<!-- ..................................................................................................................... -->
+
+
+<!-- .footer........................................................................................................................ -->
+  <div class="footer">
+    <h2>Questions? call 7651862965 </h2>
+     <div class="rows_1">
+       <div class="col">
+        <a href="#">FAQ</a>
+        <a href="#">Investor Relations</a>
+        <a href="#">Privacy</a>
+        <a href="#">Speed Test</a>
+       </div>
+       <div class="col">
+        <a href="#">Help Center</a>
+        <a href="#">Jobs</a>
+        <a href="#">Cookies Preferences</a>
+        <a href="#">Legal Notice</a>
+       </div>
+       <div class="col">
+        <a href="#">Account</a>
+        <a href="#">Ways to Watch</a>
+        <a href="#">Corporate Information</a>
+        <a href="#">Legal Notice</a>
+       </div>
+       <div class="col">
+        <a href="#">FAQ</a>
+        <a href="#">Investor Relations</a>
+        <a href="#">Privacy</a>
+        <a href="#">Speed Test</a>
+      </div> 
+     </div>
+
+     <select name="select" class="lang-btn">
+      <option>English</option>
+      <option>Hindi</option>
+    </select>
+     <!-- <button class="lang-btn">English <img src="logo/down-solid.png"id="arrow"></button> -->
+     <p class="Copyright-text">Netflix India</p>
+    </div>
+</body>
+</html>

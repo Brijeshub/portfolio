@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: aliceblue;
+}
+.header{ 
+    /* outline: 2px solid rgb(153, 87, 51); */
+    /* width: 100vw; */
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(logo/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 55px 5%;
+    position: relative;
+    
+}
+.logo > img{
+    /* outline: 2px solid red; */
+    height: 40px;
+    cursor: pointer;
+}
+.header > .nav{
+    /* outline: 2px solid red; */
+    margin-top: -25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 120px;
+   
+}
+#lang > select{
+    border: 0;
+    outline: 0;
+  
+    color: white;
+    padding: 6px 30px;
+    margin-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+select> option{
+
+ background-color:black;
+}
+
+#lang>#sign_in{
+    padding: 6px 30px;
+    height: 42px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* #arrow{
+    height: 10px;
+    margin-left: 10px;
+} */
+#lang>.lang-btn{
+    background: transparent;
+    border: 1px solid rgb(227, 225, 222);
+    /* color: rgb(11, 11, 11); */
+}
+
+.content{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+   text-align: center;
+   /* margin-top: 100px; */
+    /* transform: translate(-50%,-50%); */
+   
+    
+}
+#heading{
+    text-align: center;
+}
+
+#heading > h1{
+     font-size: 45px;
+     font-weight: 900;
+     line-height: 80px;
+     max-width: 1000px;
+    
+    }
+    #heading > h2{
+        font-weight: 400;
+        margin-bottom: 22px;
+    }
+    #heading > p{
+        margin-bottom: 30px;
+    }
+    .signup{
+        /* outline: 2px solid red; */
+        /* background: #fff; */
+        
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        overflow: hidden;
+        width: 550px;
+       margin: auto;
+    }
+    .signup > #signBox1 > input{
+        border: 1px solid grey;
+        /* outline: 2px solid grey; */
+        /* margin-left: -5%; */
+        /* outline: 2px solid red; */
+        width: 160%;
+        padding: 15px 28px;
+        border-radius: 5px;
+        background: rgba(20, 18, 18, 0.658);
+    }
+    .signup > #signBox2 > button{
+        background: #ec0808fb;
+        border: 0;
+        outline: 0;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer; 
+        padding: 11.5px 30px;
+        display: inline;
+        border-radius: 5px;
+    }    
+/* page2.......................................................................................................     */
+    
+ .features{
+    border-top: 6px solid #333;
+    padding: 90px 130px;
+ }
+ .features>.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+ }
+ .row>.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    /* padding:120px; */
+ }
+ .row>.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    position: relative;
+ }
+ .img-col img{
+    /* outline: 1px solid red; */
+    display: block;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+ }
+ .img-col > #video1{
+    display: block;
+    width: 70%;
+    margin: auto;
+     position: absolute;
+    top: 72px;
+    left: 88px;
+    /* width: 66%;  */
+
+ }
+
+ .img-col > #video2{
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 118px;
+    width: 55%;
+    z-index: -10;
+ }
+#mobile-div{
+     margin: auto;
+     outline: 3px solid rgb(77, 74, 74);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 118px;
+     width: 50%;
+     margin-top: -20%;
+     position: relative;
+     z-index: 10;
+     background: black;
+     border-radius: 15px;
+}
+#mobile-box > img{
+    /* outline: 1px solid red; */
+     height: 100px;
+     margin-left: 10px;
+
+}
+#heding-tex{
+    padding-top: 35px;
+    width: 60%;
+    margin-left: 8px;
+}
+#heding-tex > h6{
+    font-size: 16px;
+}
+#heding-tex > p{
+    font-size: 14px;
+}
+#loader{
+    width: 15%;
+}
+
+ .features h2{
+   font-size: 40px;
+   font-weight: 600;
+   margin-bottom: 20px;
+ }
+ .faq{
+
+    border-top: 6px solid #2b2525;
+    padding: 10px 12px;
+    text-align: center;
+    font-size: 18px;
+
+ }
+ .faq>h2{
+    margin-top: 40px;
+    font-size:55px;
+    font-weight: 1050;
+ }
+ .accordion{
+    margin: 40px auto;
+    width: 100%;
+    max-width: 1100px;
+ }
+ .accordion li
+{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;  
+    transition: transform 0.5s;  
+}
+input[type="radio"]{
+    display: none;
+}
+
+/* ................................................................ */
+.accordion .contentA{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .contentA{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+/* ................................. */
+.faq .signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.faq small{
+    font-size: 16px;
+}
+
+
+/* footer............................................................................................. */
+.footer{
+    /* outline: 2px solid red; */
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+.footer > .rows_1{
+    display: flex;
+    padding: 10px 0;
+}
+.footer h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    /* text-decoration: none; */
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer .lang-btn{
+    color: #fff;
+    padding: 10px 25px;
+    border-radius:3px ;
+    background: transparent;
+    outline: 2px solid gray;
+    border: none;
+}
+
+.Copyright-text{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+@media (max-width:650px){
+    .header{
+        height: 75vh;
+    }
+    .header > .nav{
+            margin-top: -25px;
+            padding: 5px 0px;
+           
+        }
+        .logo > img{
+            height: 30px;
+        }
+        .content{
+            width: 90%;
+            margin-left: -15%;
+         }
+         /* .content{
+            width: 90%;
+            margin-left: -15%;
+         } */
+         /* #heading>h1{
+             font-size: 38px;
+         } */
+         #heading>h2,p{
+             font-size: 20px;
+         }
+         .features>.row{
+             display: flex;
+             flex-direction: column;
+             width: 130%;
+             margin-left: -15%;
+         }
+         .row>.text-col{
+             text-align: center;
+             width: 120%;
+             margin-left: -10%;
+     
+         }
+         .row>.img-col{
+             width: 120%;
+             margin-left: -10%;
+         }
+         .img-col>#video1{
+             top:110px;
+             left: 150px;
+         }
+         .img-col>#video2{
+             top:90px;
+             left: 210px;
+         }
+         .faq>h2{
+             font-size: 30px;
+             font-weight: 900;
+         }
+         .accordion{
+             width: 95%;
+         }
+}
+
+
+ @media (max-width:800px){
+
+     .header{
+        height: 80vh;
+    }
+
+    .header > .nav{
+        margin-top: -20px;
+        padding: 5px 0px;
+       
+    }
+    .logo > img{
+        height: 25px;
+        cursor: pointer;
+    }
+    #lang>button{
+  height: 33px;
+    }
+    .content{
+       width: 90%;
+       margin-left: -15%;
+    }
+    #heading>h1{
+        font-size: 38px;
+    }
+    #heading>h2,p{
+        font-size: 20px;
+    }
+    .features>.row{
+        display: flex;
+        flex-direction: column;
+        width: 130%;
+        margin-left: -15%;
+    }
+    .row>.text-col{
+        text-align: center;
+        width: 120%;
+        margin-left: -10%;
+
+    }
+    .row>.img-col{
+        width: 120%;
+        margin-left: -10%;
+    }
+    .img-col>#video1{
+        top:110px;
+        left: 125px;
+    }
+    .img-col>#video2{
+        top:70px;
+        left: 155px;
+    }
+    .faq>h2{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .accordion{
+        width: 95%;
+    }
+}   

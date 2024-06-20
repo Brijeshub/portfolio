@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4ec12e3bbe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <!-- <img src="chess.jpg" alt=""> -->
+        <div class="cotainer">
+            <nav>
+                <img class="logo" src="logo1.png">
+                <ul id="sidemenu">
+                    <li> <a href ="#header">Home</a> </li>
+                    <li> <a href ="#about">About</a> </li>
+                    <li> <a href ="#services">Services</a> </li>
+                    <li> <a href ="#portfolio">Portfolio</a> </li>
+                    <li> <a href ="#contact">Contact</a> </li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"style.backgroundColor="black" ></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end Devloper</p>
+                <h2>Hi,I'm<span>Brijesh</span> <br> From Utter Pradesh,India</h2>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="cotainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo/aboutphoto.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <P>I am a computer science engineer and I have 
+                        learned good knowledge of technology. I dream 
+                        to work on a more important project and 
+                        contribute with skills. Always eager to learn new 
+                        technologies, best practices and looking for 
+                        opportunities to work in challenging 
+                        environments.</P>
+                <div class="tab-title">
+                    <p class="tab-links active-links"onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                    <p class="tab-links" onclick="opentab('education')" >Education</p>
+                </div>
+                <div class="tab-contents active-tab"id="skills">
+                    <ul>
+                        <li><span>Mobile Application Devloper</span><br>Android/IOS</li>
+                        <li><span>Front-end Devloper</span><br>Designing Web</li>
+                        <li><span>UI/UX</span><br>Designing </li>
+                        <li><span>System Designer</span><br>Designing</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents"id="experience">
+                    <ul>
+                        <li><span>Learnsmasher</span><br>1-Months</li>
+                        <li><span>edureka</span><br>1-Months</li>
+                        <li><span>Bharat Intern</span><br>1-Months</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents"id="education">
+                    <ul>
+                        <li><span>Bacholer of Engineering(2020-2024)</span><br>Computer Science</li>
+                        <li><span>RVP Inter Collage</span><br>12th,<br>2017</li>
+                        <li><span>RVP Inter Collage</span><br>10th,<br>2015</li>
+                    </ul>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="cotainer">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quas aliquam, quis cupiditate numquam enim eius! Quidem deserunt nisi quo velit beatae vel enim?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <!-- <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quas aliquam, quis cupiditate numquam enim eius! Quidem deserunt nisi quo velit beatae vel enim?</p>
+                    <a href="#">learn more</a>
+                </div> -->
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quas aliquam, quis cupiditate numquam enim eius! Quidem deserunt nisi quo velit beatae vel enim?</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+
+    <div id="portfolio">
+        <div class="cotainer">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="mobileApp.jpg">
+                    <div class="layer">
+                        <h3>Mobile Application</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nesciunt dicta quibusdam dolorem! Voluptatum, eligendi. Rem reprehenderit dolor vero consequatur.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="devloper.jpg">
+                    <div class="layer">
+                        <h3>Front-end</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nesciunt dicta quibusdam dolorem! Voluptatum, eligendi. Rem reprehenderit dolor vero consequatur.</p>
+                        <a href="projects"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="database.jpg">
+                    <div class="layer">
+                        <h3>DataBase</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nesciunt dicta quibusdam dolorem! Voluptatum, eligendi. Rem reprehenderit dolor vero consequatur.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="networking.jpg">
+                    <div class="layer">
+                        <h3>Networking</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nesciunt dicta quibusdam dolorem! Voluptatum, eligendi. Rem reprehenderit dolor vero consequatur.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div> -->
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="cotainer">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                   <p><i class="fa-solid fa-paper-plane"></i> kumarbrijesh9980@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+917651862965</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/Bk7666616K?t=nJ1V66ClTjMJRqQyFQZjvQ&s=08"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/brijesh7651k"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/brijesh-kumar-148137248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="cv/resume.pdf"Download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text"name="Name"placeholder="Your Name"required>
+                        <input type="email"name="email"placeholder="Your Email"required>
+                        <textarea name="Message"row="6"placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright this<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenuu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenuu.style.right="0";
+        }
+        function closemenu(){
+            sidemenuu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyHCbkDQX76ucm6-Hjl6mXi3htLuIlXEmpyLnxA5LPxxOe7SDI1ogoC3mfe18Epupo/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+              msg.innerHTML="Message sent successfully"
+              setTimeout(function(){
+                msg.innerHTML=""
+              },5000)
+              form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
