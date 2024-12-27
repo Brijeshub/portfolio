@@ -362,33 +362,6 @@ nav .fa-solid{
 
 
 @media  screen and (max-width:750px) {
-    #header{
-        height: 500px;
-        /* outline: 2px solid red; */
-    }
-    .header-text{
-          position:absolute ;
-          top: -10rem;
-          padding: 30px;
-    }
-    .header-text{
-        margin-top: 110%;
-        font-size: 18px;
-    }
-    .header-text h2{
-        font-size: 40px;
-    }
-    .header-text>p{
-        font-size: 2rem;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-weight: 1000;
-    }
-    .header-text>h3{
-        font-size: 1.7rem;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-weight: 1000;
-    }
-    
     nav .fa-solid{
         display: block;
         font-size: 30px;
@@ -414,54 +387,107 @@ nav .fa-solid{
       left: 25px;
       cursor: pointer;
       color: rgb(162, 255, 0);
+    }
+
+    #header{
+        position: relative;        
+    }
+    .navbar{
+        background-color: rgba(57, 56, 56, 0.553);
+    }
+    #header>.header-text{
+          position:absolute ;
+          top: 15%;
+          margin: 0;
+    }
+    #header>.header-text>#hi{
+        font-family: Georgia, 'Times New Roman', Times, serif;
 
     }
-    .cotainer > .sub-title{
-        font-size: 40px;
-        text-align: center;
+    #header>.header-text>p{
+        font-size: 2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 1000;
     }
-    .about-col-1, .about-col-2{
-        flex-basis: 100%;
+    .phone-img{
+        height: 20em;
+        width: 20em;
+        border-radius: 100%;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        background-image: url("photo/aboutphoto.png");
+        background-position: center;
+        background-size: cover;
     }
-    #about{
-        padding: 0px;
-        margin: 0;
+      #about{
+        position: relative;
+       
     }
-    .about-col-1{
-        margin-bottom: 1rem;
-    }
-    .about-col-1>img{
-        border-radius: 10%;
-        margin-left: 2.5rem;
-    }
+     .about-col-1>img{
+        display: none;
+    } 
     .about-col-2{
-        font-size: 16px;
-    }
-    .about-col-2 > .sub-title{
         text-align: center;
-        padding: 1rem;
-    }
-    .tab-links{
+        width: 90%;
         font-size: 18px;
+        position: absolute;
+        line-height: 2rem;
+        top: 95%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    } 
+     .about-col-2 > .sub-title{
+        padding: 3rem;
+    } 
+    .tab-links{
+        font-size: 20px;
+        color: rgba(55, 55, 228, 0.95);
     }
-    .contact-left, .contact-right{
-        flex-basis: 100%;
+    .tab-links:hover{
+        color: #0088ff;
     }
-    .contact-left > .sub-title{
+    .tab-contents{
+        font-size: 20px;
+    }
+    #services{
+        position: relative;
+        margin-top: 22rem;
         text-align: center;
-        font-size: 40px;
     }
-}
+    .services-list{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+            grid-gap: 50px;
+            margin-top: 50px;
 
-@media  screen and (max-width:820px){
+    }     
+    #portfolio{
+        text-align: center;
+       
+    }
+    .work-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+        grid-gap: 40px;
+        margin-top: 50px;
+        
+      }
+      .row{
+        display: flex;
+        flex-direction: column;
+
+      }
+}
+/* @media  screen and (max-width:820px){
     .header-text>p{
         font-size: 3rem;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-weight: 1000;
     }
 
-    #about{
-        /* outline: 2px solid red; */
+     #about{
         padding-top:0px;
     }
     .about-col-1{
@@ -479,14 +505,14 @@ nav .fa-solid{
         text-align: center;
         padding: 1rem;
     }   
-}
+} */
 
 
 
 
 
- #msg{
+ /* #msg{
     color:#61b752;
     margin-top: -30px;
     display: block;
- }
+ } */
