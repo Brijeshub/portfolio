@@ -9,15 +9,12 @@
 </head>
 <body>
     <div id="header">
-        <!-- <img src="chess.jpg" alt=""> -->
-        <div class="cotainer">
-            <nav>
+            <nav class="navbar">
                 <img class="logo" src="logo1.png">
                 <ul id="sidemenu">
                     <li> <a href ="#header">Home</a> </li>
                     <li> <a href ="#about">About</a> </li>
                     <li> <a href ="#services">Services</a> </li>
-                    <li> <a href ="#portfolio">Portfolio</a> </li>
                     <li> <a href ="#contact">Contact</a> </li>
                     <i class="fa-solid fa-circle-xmark" onclick="closemenu()" ></i>
                 </ul>
@@ -25,10 +22,19 @@
             </nav>
             <div class="header-text">
                 <!-- <p>Front-end Devloper</p> -->
-                <h2>Hi,I'm <span>Brijesh</span> <br> From Utter Pradesh,India</h2>
+                <p>Hi</p> <h3>I'm <span>Brijesh Kumar</span> <br> From Utter Pradesh,India</h3>
+                <div class="contact-head">
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/Bk7666616K?t=nJ1V66ClTjMJRqQyFQZjvQ&s=08"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/brijesh7651k"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/brijesh-kumar-148137248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
             </div>
-        </div>
+           
     </div>
+    
     <div id="about">
         <div class="cotainer">
             <div class="row">
@@ -181,7 +187,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p>copyright this<i class="fa-solid fa-heart"></i></p>
+            <p>copyright @2024</p>
         </div>
     </div>
 
@@ -206,11 +212,13 @@
     </script>
     <script>
         var sidemenuu=document.getElementById("sidemenu");
+        console.log(navbar)
         function openmenu(){
-            sidemenuu.style.right="0";
+            sidemenuu.style.right="0%";
+    
         }
         function closemenu(){
-            sidemenuu.style.right="-200px";
+            sidemenuu.style.right="100%";
         }
     </script>
     <script>
